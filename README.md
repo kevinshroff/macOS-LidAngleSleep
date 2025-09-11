@@ -27,7 +27,3 @@ A tiny menu bar app that displays your Mac’s current lid angle as text (e.g., 
 ## Troubleshooting
 
 - If it always shows `—°`, check your hardware, confirm Sandbox is off, and verify `IOKit.framework` is linked. Use the Xcode console to see any read errors.
-
----
-
-Adding this README has no effect on the app binary or behavior.
