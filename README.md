@@ -27,3 +27,7 @@ A tiny menu bar app that displays your Mac’s current lid angle as text (e.g., 
 ## Troubleshooting
 
 - If it always shows `—°`, check your hardware, confirm Sandbox is off, and verify `IOKit.framework` is linked. Use the Xcode console to see any read errors.
+
+## Acknowledgments
+
+- Inspired by and built thanks to the work in [LidAngleSensor](https://github.com/samhenrigold/LidAngleSensor). All credit for discovering and demonstrating how to use the hidden lid angle HID API goes to the original author.
