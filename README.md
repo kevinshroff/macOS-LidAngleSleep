@@ -71,4 +71,5 @@ The app has no Dock icon; it lives only in the menu bar.
 ## Acknowledgments
 
 - Features added to and built on top of [LidAngle](https://github.com/deepakness/LidAngle) by DeepakNess. Credit for writing app and API usage/setup.
+
 - The lid angle HID approach is based on [LidAngleSensor](https://github.com/samhenrigold/LidAngleSensor) by Sam Gold. Credit to that project for discovering and demonstrating the hidden lid angle API.
