@@ -43,6 +43,13 @@ private struct MenuBarExtraContent: View {
         }
         .keyboardShortcut(",", modifiers: .command)
 
+        Button("About LidAngle") {
+            NSApp.activate(ignoringOtherApps: true)
+            NSApp.orderFrontStandardAboutPanel(nil)
+        }
+
+        Divider()
+
         Button("Quit") {
             NSApplication.shared.terminate(nil)
         }

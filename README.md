@@ -8,7 +8,7 @@ A small **macOS menu bar app** that puts your Mac to sleep when the lid is at or
 - **Sleep at your chosen angle:** When “Put Mac to sleep when lid is at or below threshold” is on, the app puts the Mac to sleep whenever the reported angle is at or below the value you set (5°–200°).
 - **Keeps it asleep:** If the Mac wakes (e.g. accidental keypress, bad sensor) while the lid is still “closed” (angle below your threshold), the app triggers sleep again on the next poll. So it repeatedly re-sleeps until you open the lid above the threshold.
 - **Launch at login** (optional), **no Dock icon** (menu bar only).
-- **Battery-friendly polling:** Normal interval 3 s; faster (0.75 s) only when the angle is near your threshold and sleep-by-angle is enabled.
+- **Battery-friendly polling:** Fixed 5 s interval.
 
 ## Requirements
 
